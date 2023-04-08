@@ -1,0 +1,40 @@
+1. Comment line				: Ctrl + Alt + C
+   Un-comment(Select)		: Ctrl + Alt + U
+
+2. Copy line				: Ctrl + K
+4. Cut line					: Ctrl + U
+
+6. Line move				: Ctrl + UP/DOWN
+
+7. Insert line(Befor) 		: Ctrl + I
+              (Next) 		: Ctrl + O
+
+8. Join lines				: Ctrl + J
+
+9. Cursor move(Down)		: Ctrl + N
+              (Up)			: Ctrl + P
+			  (Left)		: Ctrl + H
+			  (Right)		: Ctrl + L
+              (End of line)	: Ctrl + 0
+			  (Top of line) : Ctrl + 9
+
+10. Find files				: Ctrl + Shift + F 
+
+11. Highlight word			: F8
+	Clear highlight			: Ctrl + Alt + H
+
+12. Replace character		: Ctrl + R
+	Replace file			: Ctrl + Shift + H
+
+13. Toggle symbol windows	: Ctrl + F8
+    Toggle project windows	: Ctrl + F9
+
+14. Search in symbol window : Alt + L
+    Search Symbol(in pro)	: Alt + S
+    Search File(in pro)		: Alt + F
+
+
+
+15. Find symbol				: Ctrl + F
+	Search pre				: Atl  + [
+	Search next				: Atl  + ]
