@@ -111,7 +111,7 @@
 		BounceParens="1"
 		KeepCursorInWindow="1"
 		UseBlockCursor="0"
-		UseSmartTab="0"
+		UseSmartTab="1"
 		TabIndentsLine="0"
 		TabReplacesSelection="1"
 		IndentPreprocStatments="0"
@@ -423,6 +423,8 @@
 	</Menus>
 	<Keymaps>
 		<Main>
+			<item Command="Word Right" Keycode="(C)E" />
+			<item Command="Word Left" Keycode="(C)B" />
 			<item Command="Cursor Right" Keycode="(C)L" />
 			<item Command="Cursor Left" Keycode="(C)H" />
 			<item Command="Replace..." Keycode="(C)R" />
@@ -474,7 +476,6 @@
 			<item Command="New Project..." Keycode="(AS)N" />
 			<item Command="Incremental Search..." Keycode="(C)," />
 			<item Command="Complete Symbol" Keycode="(C)8" />
-			<item Command="Complete Snippet" Keycode="(C)E" />
 			<item Command="Smart Rename..." Keycode="(C)&apos;" />
 			<item Command="File Type Options..." Keycode="(A)Y" />
 			<item Command="Last Window" Keycode="(CS)Tab" />
@@ -633,6 +634,7 @@
 			<item Command="Search Forward" Keycode="(A)]" />
 			<item Command="Activate Project Symbol List" Keycode="(A)S" />
 			<item Command="Activate Project File List" Keycode="(A)F" />
+			<item Command="New" Keycode="(CA)F" />
 		</Main>
 	</Keymaps>
 	<CustomCommands>
@@ -1106,8 +1108,8 @@
 			AllowSnippets="1"
 			ShowRefHighlights="1"
 			TabWidth="4"
-			MarginWidth="80"
-			IndentWidth="0"
+			MarginWidth="85"
+			IndentWidth="1"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType=""
 			AutoIndentMode="1"
@@ -7535,7 +7537,7 @@
 				SelectMatch="1"
 				FindNonMatch="0"
 				FindOnePerLine="0"
-				FindBackward="1"
+				FindBackward="0"
 				FindWholeWords="0"
 				TouchFiles="0"
 				ReplacePreserveCase="0"
@@ -8063,7 +8065,7 @@
 		</ListDisplay>
 	</ClipWindow>
 	<ContextWindow
-		IsVisible="0"
+		IsVisible="1"
 		IsLocked="0"
 		IsMonoFontView="0"
 		ViewLineNumbers="0"
