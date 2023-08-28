@@ -40,3 +40,11 @@
 15. Find symbol					: Ctrl + F
 	Search pre				: Atl  + [
 	Search next				: Atl  + ]
+
+
+=============
+Alt q: go back
+Alt w: go forward
+Alt e: contex windows
+Alt r: jump to caller
+Alt v: overview
