@@ -8,6 +8,7 @@
 
 	<Keymaps>
 		<Main>
+			<item Command="Toggle Expansions" Keycode="(A)C" />
 			<item Command="Activate Project File List" Keycode="(A)F" />
 			<item Command="Activate Project Symbol List" Keycode="(A)S" />
 			<item Command="Search Forward" Keycode="(A)]" />

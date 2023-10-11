@@ -17,8 +17,8 @@
 	      (Right)				: Ctrl + L
               (End of line)			: Ctrl + 0
 	      (Top of line) 			: Ctrl + 9
-  	      Word left				: Ctrl + B
-   	      Word right			: Ctrl + E
+    	      Word left				: Ctrl + B
+      	      Word right			: Ctrl + E
 
 10. Find files					: Ctrl + Shift + F 
 
@@ -41,10 +41,11 @@
 	Search pre				: Atl  + [
 	Search next				: Atl  + ]
 
-
 =============
 Alt q: go back
 Alt w: go forward
 Alt e: contex windows
 Alt r: jump to caller
 Alt v: overview
+
+Alt c: Toggle fold
